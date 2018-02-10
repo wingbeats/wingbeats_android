@@ -9,7 +9,7 @@ We present an app that allows wingbeat recordings to be classified on an Android
 ## Prebuilt apk - Fastest path to try the app
 Download the prebuilt apk https://github.com/wingbeats/wingbeats_android/raw/master/wingbeats_android.apk and install it in your android device. 
 
-**A folder with the name "Wingbeats_user" will be generated in the External storage in which you can drop your samples, so you can switch between the pre-installed and them inside the app. Note that for recordings outside the Wingbeats database an adaptation stage is required.**
+**A folder with the name "Wingbeats_user" will be generated in the external storage in which you can drop your samples, so you can switch between the pre-installed and them inside the app. Note that for recordings outside the Wingbeats database an adaptation stage is required.**
 
 ## Upcoming
 * Add further details about training and converting Keras model to Tensorflow graph.

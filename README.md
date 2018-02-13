@@ -14,7 +14,7 @@ Download the prebuilt apk https://github.com/wingbeats/wingbeats_android/raw/mas
 ## Building the apk in Android Studio
 minSdkVersion = 14
 
-First, depending your targeting architecture, you need to download the Tensorflow JAVA native libraries and place them inside their corresponding folder in "WingbeatsAndroid/app/src/main/jniLibs/..."
+First, depending your targeting architecture, you need to download the Tensorflow JAVA native libraries and place them inside their corresponding folder in "_WingbeatsAndroid/app/src/main/jniLibs/..._"
 
 https://ci.tensorflow.org/view/Nightly/job/nightly-android/lastSuccessfulBuild/artifact/out/native/libtensorflow_inference.so/arm64-v8a/libtensorflow_inference.so
 

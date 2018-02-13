@@ -12,7 +12,7 @@ Download the prebuilt apk https://github.com/wingbeats/wingbeats_android/raw/mas
 **A folder with the name "Wingbeats_user" will be generated in the external storage in which you can drop your samples, so you can switch between the pre-installed and them inside the app. Note that for recordings outside the Wingbeats database an adaptation stage is required.**
 
 ## Building the apk in Android Studio
-minSdkVersion 14
+minSdkVersion = 14
 
 First, depending your targeting architecture, you need to download the Tensorflow JAVA native libraries and place them inside their corresponding folder in "WingbeatsAndroid/app/src/main/jniLibs/..."
 

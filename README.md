@@ -11,6 +11,20 @@ Download the prebuilt apk https://github.com/wingbeats/wingbeats_android/raw/mas
 
 **A folder with the name "Wingbeats_user" will be generated in the external storage in which you can drop your samples, so you can switch between the pre-installed and them inside the app. Note that for recordings outside the Wingbeats database an adaptation stage is required.**
 
+## Building the apk in Android Studio
+minSdkVersion 14
+
+First, depending your targeting architecture, you need to download the Tensorflow JAVA native libraries and place them inside their corresponding folder in "WingbeatsAndroid/app/src/main/jniLibs/..."
+
+https://ci.tensorflow.org/view/Nightly/job/nightly-android/lastSuccessfulBuild/artifact/out/native/libtensorflow_inference.so/arm64-v8a/libtensorflow_inference.so
+
+https://ci.tensorflow.org/view/Nightly/job/nightly-android/lastSuccessfulBuild/artifact/out/native/libtensorflow_inference.so/armeabi-v7a/libtensorflow_inference.so
+
+https://ci.tensorflow.org/view/Nightly/job/nightly-android/lastSuccessfulBuild/artifact/out/native/libtensorflow_inference.so/x86/libtensorflow_inference.so
+
+https://ci.tensorflow.org/view/Nightly/job/nightly-android/lastSuccessfulBuild/artifact/out/native/libtensorflow_inference.so/x86_64/libtensorflow_inference.so
+
+Then, import "WingbeatsAndroid" as a project in Android Studio and build the apk.
+
 ## Upcoming
 * Add further details about training and converting Keras model to Tensorflow graph.
-* Add android source code.

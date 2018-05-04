@@ -25,6 +25,3 @@ https://ci.tensorflow.org/view/Nightly/job/nightly-android/lastSuccessfulBuild/a
 https://ci.tensorflow.org/view/Nightly/job/nightly-android/lastSuccessfulBuild/artifact/out/native/libtensorflow_inference.so/x86_64/libtensorflow_inference.so
 
 Then, import "WingbeatsAndroid" as a project in Android Studio and build the apk.
-
-## Upcoming
-* Add further details about training and converting Keras model to Tensorflow graph.
